@@ -10,6 +10,7 @@ import java.util.List;
  * @date: 2016/10/18
  *
  * 基于hashmap实现的树形单词存储结构的具体工具类
+ * 脏词过滤/敏感词过滤工具
  */
 public class DFAMapTreeFilter {
     private DFAMapTree tree = new DFAMapTree();

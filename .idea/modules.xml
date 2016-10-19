@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DataStructure_bag.iml" filepath="$PROJECT_DIR$/DataStructure_bag.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_practice.iml" filepath="$PROJECT_DIR$/java_practice.iml" />
     </modules>
   </component>
 </project>
