@@ -1,14 +1,16 @@
 package DesignPattern.Two;
 
+import java.util.Observable;
+
 /**
  * @author: rudy
  * @date: 2016/10/20
  *
- * 观察者模式
+ * 观察者模式 ,实例如redis中订阅发布
  */
 public class App {
     public static void main(String[] args){
-        Topic topic = new Topic();
+        ITopic topic = new Topic();
         topic.notifyAllObserver(Message.getMessage());
 
         IObserver dogObserver = new DogObserver();
@@ -21,5 +23,6 @@ public class App {
 
         topic.removeObserver(dogObserver);
         topic.notifyAllObserver(Message.getMessage());
+
     }
 }
