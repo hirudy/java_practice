@@ -1,4 +1,4 @@
-package DesignPattern.Six;
+package DesignPattern.Five;
 
 /**
  * @author: rudy
