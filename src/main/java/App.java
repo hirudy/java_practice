@@ -1,7 +1,3 @@
-import MyThread.FourThread;
-import MyThread.OneThread;
-import MyThread.ThreeThread;
-import MyThread.TwoThread;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
