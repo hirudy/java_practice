@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="user">root</property>
+        <property name="password">woqudev</property>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="checkoutTimeout">2000</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxPoolSize">50</property>
+        <property name="acquireIncrement">8</property>
+        <property name="minPoolSize">5</property>
+        <property name="maxConnectionAge">3600</property>
+        <property name="maxIdleTime">600</property>
+        <property name="idleConnectionTestPeriod">30</property>
+        <property name="testConnectionOnCheckin">true</property>
+        <property name="testConnectionOnCheckout">true</property>
+        <property name="preferredTestQuery">select 1</property>
+    </default-config>
+    <named-config name="user">
+        <property name="jdbcUrl">jdbc:mysql://115.28.149.242:3306/game?characterEncoding=UTF8&amp;zeroDateTimeBehavior=convertToNull</property>
+    </named-config>
+</c3p0-config>

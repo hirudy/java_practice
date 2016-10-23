@@ -25,3 +25,7 @@
 #### 模板方法模式
 #### 迭代器模式, 组合模式
 #### 代理模式
+
+
+## 4. HttpExtendServer
+基于java内置的httpserver实现的httpServer

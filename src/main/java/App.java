@@ -25,7 +25,7 @@ public class App {
         logger.debug("conf dir: " + System.getProperty("app.conf_dir"));
 
         // 初始化应用配置
-        InputStream in = new FileInputStream(confDir + File.separator +"app.properties");
+        InputStream in = new FileInputStream(confDir + File.separator + "app.properties");
         appConf.load(in);
     }
 
