@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="zookeeper-3.4.8-recipes-lock">
+    <CLASSES>
+      <root url="jar:///usr/local/zookeeper-3.4.8/recipes/lock/zookeeper-3.4.8-recipes-lock.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

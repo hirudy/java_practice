@@ -7,7 +7,7 @@ package DesignPattern.Five;
  * 控制台日志打印
  */
 public class ConsoleLogger {
-    private static ConsoleLogger logger;
+    private static volatile ConsoleLogger logger;
 
     private ConsoleLogger(){
     }
@@ -23,6 +23,7 @@ public class ConsoleLogger {
         }
         return logger;
     }
+
 
     public void log(String message){
         System.out.println("[ info ] " + message);
